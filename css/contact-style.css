@@ -1,0 +1,131 @@
+/*===============UNIVERSALS=================*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.orange-background {
+    background-color: #91485c/*#f6b10d*/;
+}
+
+.white-text{
+    color: #fff;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.pull-left{
+    float: left;
+}
+
+.pull-right{
+    float: right;
+}
+
+.half{
+    width: 50%;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    cursor: point;
+}
+
+.playfair-font{
+    font-family: 'Playfair Display', serif;
+}
+/*===============HEADER=================*/
+header {
+    padding: 35px 20px;
+    height: 80px;
+}
+
+span h4 {
+    float: left;
+}
+
+ul {
+   list-style-type: none; 
+   margin: 0;
+}
+
+li {
+    margin: 0 15px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    cursor: point;
+}
+
+header ul li a:hover {
+    color: #703342;
+}
+/*===============HERO=================*/
+#hero{
+    width: 100%;
+    height: 350px;
+    background-image: url(../img/contact-us-img.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top: 4px solid #703342; 
+    border-bottom: 4px solid #703342; 
+}
+
+#hero>h1{
+    margin: 0;
+    position: relative;
+    top: 30%;
+    left: 3%;
+}
+/*==============ASIDE=================*/
+aside{
+    height:800px;
+    width: 19.5%;
+    background-color: #91485c;
+}
+
+#aside-left{
+    border-right: 4px solid #703342;
+}
+
+#aside-right{
+     border-left: 4px solid #703342;
+}
+/*===============MAIN=================*/
+main{
+    clear: both;
+    width: 60%;
+    padding-top: 30px;
+}
+
+main h2{
+    text-align: center;
+}
+
+main h4{
+    text-align: center;
+}
+
+#header-padding{
+    padding-top: 35px;
+}
+ main iframe{
+     padding: 20px 185px;
+ }
+ /*===============FOOTER=================*/
+footer{
+    border-top: 4px solid #703342;
+    height: 150px;
+    background-color: #91485c;
+    clear: both;
+}
+
+#copyright{
+    color: white;
+}

@@ -1,0 +1,158 @@
+/*===============UNIVERSALS=================*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.orange-background {
+    background-color: #91485c/*#f6b10d*/;
+}
+
+.white-text{
+    color: #fff;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.pull-left{
+    float: left;
+}
+
+.pull-right{
+    float: right;
+}
+
+.half{
+    width: 50%;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    cursor: point;
+}
+
+.playfair-font{
+    font-family: 'Playfair Display', serif;
+}
+/*===============HEADER=================*/
+header {
+    padding: 35px 20px;
+    height: 80px;
+}
+
+span h4 {
+    float: left;
+}
+
+ul {
+   list-style-type: none; 
+   margin: 0;
+}
+
+li {
+    margin: 0 15px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    cursor: point;
+}
+
+header ul li a:hover {
+    color: #703342;
+}
+/*===============HERO=================*/
+#hero{
+    width: 100%;
+    height: 350px;
+    background-image: url(../img/icecream-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top: 4px solid #703342; 
+    border-bottom: 4px solid #703342; 
+}
+
+#hero>h1{
+    margin: 0;
+    position: relative;
+    top: 30%;
+    left: 3%;
+}
+
+#hero>audio{
+    position: relative;
+    top: 125px;
+    left: 80px; 
+}
+/*===============ASIDE=================*/
+aside{
+    width: 19.5%;
+    background-color: #91485c;
+    color: #ffffff;
+    border-right: 4px solid #703342;
+}
+aside h2{
+    text-align: center;
+}
+.blog-links{
+    padding-left: 0;
+}
+.blog-link{
+    text-align: center;
+    padding: 1px 0;
+}
+.blog-link:hover{
+    background-color: #703342;
+}
+.blog-link>h5>a{
+    font-size: 18px;
+}
+
+aside, main{
+    height: 600px;
+}
+/*===============MAIN=================*/
+main{
+    width: 78%;
+    padding: 0 15px;
+}
+
+main>h2, main>h4{
+    text-align: center;
+}
+
+#cool-cow-img {
+    clear: both;
+    width: 800px;
+    height: 800px;
+}
+
+main p a{
+    font-style: italic;
+    text-decoration: underline;
+    color: #91485c;
+}
+
+main p a:hover{
+    color: #703342;
+}
+
+#main-content-paragraph{
+    display: inline-block;
+}
+/*===============FOOTER=================*/
+footer{
+    border-top: 4px solid #703342;
+    height: 150px;
+    background-color: #91485c;
+    clear: both;
+}
+
+#copyright{
+    color: white;
+}
